@@ -315,6 +315,11 @@ This project is licensed under the **MIT License**.
 
 **Karan**
 
+Final Year Electronics & Communication Engineering Student
+
+**Interests:** Embedded Systems •C Programming • Embedded Software Development
+
+
 
 ---
 
