@@ -313,7 +313,7 @@ This project is licensed under the **MIT License**.
 
 # 👨‍💻 Author
 
-**Karan**
+**Karan Jeevan**
 
 Final Year Electronics & Communication Engineering Student
 
