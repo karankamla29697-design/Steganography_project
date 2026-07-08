@@ -298,7 +298,30 @@ Exchange confidential information through seemingly ordinary images.
 | Difficulty | Intermediate |
 
 ---
-
+Steganography_project/
+│
+├── 📄 LICENSE              # MIT License file
+├── 📄 README.md            # Detailed project documentation
+│
+├── 🧠 Core Source & Header Files
+│   ├── test_encode.c       # Main driver file (processes command-line arguments)
+│   ├── encode.c            # Source code containing LSB encoding functions
+│   ├── encode.h            # Header file with structure definitions & prototypes for encoding
+│   ├── decode.c            # Source code containing LSB decoding functions
+│   ├── decode.h            # Header file with prototypes for decoding
+│   ├── common.h            # Shared configuration and macro definitions
+│   └── types.h             # Custom user-defined types (enums for status and operation types)
+│
+├── 🖼️ Sample Image & Text Files
+│   ├── beautiful.bmp       # Input source image (carrier file)
+│   ├── secret.txt          # Input text file containing the hidden message
+│   ├── stego.bmp           # Encoded output image containing the secret data
+│   └── stego_img.bmp       # Alternative encoded sample image
+│   └── output.txt          # Extracted secret text file generated after decoding
+│
+└── 🛠️ Compiled Binaries
+    ├── a.out               # Default GNU compiler output binary
+    └── stego               # Custom compiled application executable
 # 💡 Why This Project Matters
 
 This project demonstrates how low-level programming concepts in C can be applied to solve real-world cybersecurity problems. It combines binary file handling, bitwise operations, and modular programming to implement a practical information-hiding system, making it an excellent project for students interested in systems programming, cybersecurity, and embedded software development.
